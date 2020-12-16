@@ -8,7 +8,7 @@ ternary search     | O(log3 n) | O(log3 n)
 jump search        | O(sqrt n) | O(sqrt n)
 exponential search | O(log i)  |
 
-### Linear Search
+### 01 Linear Search
 ![](https://github.com/shamy1st/algorithms/blob/main/images/linear-search.png)
 
 --             | best   | worst
@@ -23,7 +23,7 @@ linear search  | O(1)   | O(n)
             return -1;
         }
 
-### Binary Search
+### 02 Binary Search
 ![](https://github.com/shamy1st/algorithms/blob/main/images/binary-search.png)
 
 --             | time     
@@ -72,7 +72,7 @@ log 1000,000 = 19
             return -1;
         }
 
-### Ternary Search
+### 03 Ternary Search
 ![](https://github.com/shamy1st/algorithms/blob/main/images/ternary-search.png)
 ![](https://github.com/shamy1st/algorithms/blob/main/images/ternary-search-2.png)
 ![](https://github.com/shamy1st/algorithms/blob/main/images/binary-vs-ternary.png)
@@ -108,7 +108,7 @@ ternary search | O(log3 n)
             return ternarySearch(array, value, mid2 + 1, end);
         }
 
-### Jump Search
+### 04 Jump Search
 ![](https://github.com/shamy1st/algorithms/blob/main/images/jump-search.png)
 ![](https://github.com/shamy1st/algorithms/blob/main/images/jump-search-2.png)
 ![](https://github.com/shamy1st/algorithms/blob/main/images/jump-search-complexity.png)
@@ -136,7 +136,7 @@ jump search    | O(sqrt n)
             return -1;
         }
 
-### Exponential Search
+### 05 Exponential Search
 ![](https://github.com/shamy1st/algorithms/blob/main/images/exponential-search.png)
 ![](https://github.com/shamy1st/algorithms/blob/main/images/exponential-search-2.png)
 ![](https://github.com/shamy1st/algorithms/blob/main/images/exponential-search-3.png)
